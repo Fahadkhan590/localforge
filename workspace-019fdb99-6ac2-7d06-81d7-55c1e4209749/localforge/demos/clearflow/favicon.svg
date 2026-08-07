@@ -1,7 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <rect width="32" height="32" rx="8" fill="#0c4a6e"/>
-  <!-- Water droplet -->
-  <path d="M16 6.5c0 0-6.2 7.4-6.2 11.4a6.2 6.2 0 1 0 12.4 0C22.2 13.9 16 6.5 16 6.5z" fill="#7dd3fc"/>
-  <!-- Highlight -->
-  <path d="M13.2 15.8c-.3 1.1-.2 2.3.5 3.3" stroke="#e0f2fe" stroke-width="1.6" stroke-linecap="round"/>
-</svg>
