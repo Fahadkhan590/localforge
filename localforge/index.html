@@ -1,62 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Primary SEO -->
+  <title>LocalForge — Professional Web Design for Local Service Businesses</title>
 
   <meta
     name="description"
-    content="LocalForge designs professional websites for US local service businesses. Transparent pricing from $300–$1,500 for landing pages, 5-page sites, Google Business support, and monthly maintenance."
-  />
+    content="LocalForge creates professional, modern and conversion-focused websites for US local service businesses. Get a custom business website, landing page, Google Business support and ongoing website maintenance."
+  >
 
-  <meta name="theme-color" content="#141210" />
+  <meta name="robots" content="index, follow">
+  <meta name="author" content="LocalForge">
+  <meta name="theme-color" content="#141210">
 
+  <!-- Targeted SEO Keywords -->
+  <!-- Meta keywords are not a Google ranking factor, but may help
+       other systems understand the site's primary topics. -->
   <meta
-    name="google-site-verification"
-    content="b0sYwV6HYARf01KJJnlYs-hqQFMCKKGSpa9C9MmKrk0"
-  />
+    name="keywords"
+    content="LocalForge, local business web design, local service business websites, small business web design, professional website design, local business website design, service business website, contractor website design, home service website design, business website development, responsive business websites, conversion-focused websites, landing page design, Google Business Profile support, website maintenance, US local business websites"
+  >
 
+  <!-- Canonical -->
   <link
     rel="canonical"
     href="https://localforgeweb.vercel.app/"
-  />
+  >
+
+  <!-- Google Search Console -->
+  <meta
+    name="google-site-verification"
+    content="b0sYwV6HYARf01KJJnlYs-hqQFMCKKGSpa9C9MmKrk0"
+  >
 
   <!-- Open Graph -->
-  <meta property="og:type" content="website" />
-  <meta property="og:site_name" content="LocalForge" />
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="LocalForge">
+
   <meta
     property="og:title"
-    content="Web Design for Local Service Businesses | LocalForge"
-  />
+    content="LocalForge — Professional Web Design for Local Service Businesses"
+  >
+
   <meta
     property="og:description"
-    content="LocalForge designs professional websites for US local service businesses. Transparent pricing from $300–$1,500 for landing pages, 5-page sites, Google Business support, and monthly maintenance."
-  />
+    content="Professional, modern and conversion-focused websites for US local service businesses, including custom websites, landing pages, Google Business support and ongoing maintenance."
+  >
+
   <meta
     property="og:url"
     content="https://localforgeweb.vercel.app/"
-  />
+  >
+
   <meta
     property="og:image"
     content="https://localforgeweb.vercel.app/assets/favicons/icon-512.png"
-  />
+  >
 
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary" />
+  <meta
+    property="og:image:width"
+    content="512"
+  >
+
+  <meta
+    property="og:image:height"
+    content="512"
+  >
+
+  <meta
+    property="og:image:alt"
+    content="LocalForge — Professional Web Design for Local Service Businesses"
+  >
+
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary">
+
   <meta
     name="twitter:title"
-    content="Web Design for Local Service Businesses | LocalForge"
-  />
+    content="LocalForge — Professional Web Design for Local Service Businesses"
+  >
+
   <meta
     name="twitter:description"
-    content="LocalForge designs professional websites for US local service businesses. Transparent pricing from $300–$1,500 for landing pages, 5-page sites, Google Business support, and monthly maintenance."
-  />
+    content="Professional websites, landing pages and digital solutions built for US local service businesses by LocalForge."
+  >
+
   <meta
     name="twitter:image"
     content="https://localforgeweb.vercel.app/assets/favicons/icon-512.png"
-  />
+  >
 
-  <!-- Structured Data -->
+  <meta
+    name="twitter:image:alt"
+    content="LocalForge — Professional Web Design for Local Service Businesses"
+  >
+
+  <!-- Structured Data / JSON-LD -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -67,16 +111,33 @@
         "name": "LocalForge",
         "url": "https://localforgeweb.vercel.app/",
         "email": "believerbk4@gmail.com",
-        "description": "Independent remote web design studio creating professional websites for US local service businesses.",
-        "logo": "https://localforgeweb.vercel.app/assets/favicons/icon-512.png"
+        "description": "Independent remote web design studio creating professional, modern and conversion-focused websites for US local service businesses.",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://localforgeweb.vercel.app/assets/favicons/icon-512.png"
+        }
       },
       {
         "@type": "WebSite",
         "@id": "https://localforgeweb.vercel.app/#website",
         "url": "https://localforgeweb.vercel.app/",
         "name": "LocalForge",
-        "description": "Professional websites for local service businesses across the United States.",
+        "description": "Professional websites and digital solutions for local service businesses across the United States.",
         "publisher": {
+          "@id": "https://localforgeweb.vercel.app/#organization"
+        },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://localforgeweb.vercel.app/#webpage",
+        "url": "https://localforgeweb.vercel.app/",
+        "name": "LocalForge — Professional Web Design for Local Service Businesses",
+        "description": "Professional, modern and conversion-focused websites for US local service businesses.",
+        "isPartOf": {
+          "@id": "https://localforgeweb.vercel.app/#website"
+        },
+        "about": {
           "@id": "https://localforgeweb.vercel.app/#organization"
         },
         "inLanguage": "en-US"
@@ -85,60 +146,59 @@
   }
   </script>
 
-  <title>Web Design for Local Service Businesses | LocalForge</title>
-
   <!-- Favicons / App Icons -->
   <link
     rel="icon"
     href="assets/favicons/favicon.ico"
     sizes="any"
-  />
+  >
 
   <link
     rel="icon"
     type="image/svg+xml"
     href="assets/favicons/localforge.svg"
-  />
+  >
 
   <link
     rel="icon"
     type="image/png"
     sizes="32x32"
     href="assets/favicons/favicon-32x32.png"
-  />
+  >
 
   <link
     rel="icon"
     type="image/png"
     sizes="16x16"
     href="assets/favicons/favicon-16x16.png"
-  />
+  >
 
   <link
     rel="apple-touch-icon"
     sizes="180x180"
     href="assets/favicons/apple-touch-icon.png"
-  />
+  >
 
   <link
     rel="manifest"
     href="site.webmanifest"
-  />
+  >
 
   <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
   <link
     rel="preconnect"
     href="https://fonts.gstatic.com"
     crossorigin
-  />
+  >
 
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
     rel="stylesheet"
-  />
+  >
 
-  <!-- Hero Image -->
+  <!-- Performance: Hero Image -->
   <link
     rel="preload"
     as="image"
@@ -150,10 +210,14 @@
       assets/images/studio-hero-1920.webp 1920w
     "
     imagesizes="100vw"
-  />
+    fetchpriority="high"
+  >
 
   <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/main.css" />
+  <link
+    rel="stylesheet"
+    href="css/main.css"
+  >
 </head>
 
 <body>
